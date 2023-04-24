@@ -1,0 +1,14 @@
+{
+    "jag_creditinformation_customer_info": {
+        "column": {
+            "customer_info_id": true,
+            "customer_id": true,
+            "name": true,
+            "email": true,
+            "credit_type": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

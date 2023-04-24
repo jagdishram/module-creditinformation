@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+         <add id="Jag_CreditInformation::credit_menu" 
+              title="Credit Information" 
+              translate="title" 
+              module="Jag_CreditInformation" 
+              sortOrder="1000" 
+              parent="Magento_Customer::customer" 
+              action="creditinformation/customerinfo/new" 
+              resource="Jag_CreditInformation::customer_info"/>
+    </menu>
+</config>
